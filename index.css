@@ -1,7 +1,7 @@
 *{
     margin: 0px;
-    padding: 0;
-    font-family:"arial";
+    padding: 2;
+    font-family:"Calibri";
     font-style: bold;
     
 }
@@ -45,7 +45,7 @@ ul li.active a{
 }
     .logo img{
         float: left;
-        width: 70px;
+        width: 100px;
         height: auto;
         padding: 5px 20px;
     }
@@ -66,8 +66,8 @@ ul li.active a{
     }
     .button{
         position: absolute;
-        top: 42%;
-        left: 50%;
+        top: 50%;
+        left: 60%;
         transform: translate(-50%,-50%);
     }
 
@@ -84,9 +84,22 @@ ul li.active a{
         color: rgb(0, 0, 0);
     }
 
+    .btno{
+        border:1px solid #fff ;
+        padding: 10px 10px;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.6s ease;
+    }
+
+    .btno:hover{
+        background-color: rgb(232, 236, 0);
+        color: rgb(0, 0, 0);
+    }
+
     .content {
         position: absolute;
-        top: 350px;
+        top: 450px;
         right: 310px;
         width: 500px;
         height: 100px;
@@ -94,10 +107,13 @@ ul li.active a{
         color: #fff;
     }
     .Kiyan img{
-        width: 1000px;
+        width: 1050px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         height: fit-content;
     }
+
+
+
 
 
 
