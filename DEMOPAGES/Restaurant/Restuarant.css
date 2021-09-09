@@ -55,5 +55,6 @@
     .BURG img{
         width: 1000px;
         background-position: center;
+        height: fit-content;
     }
 
