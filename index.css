@@ -116,11 +116,11 @@ body {
             right: 310px;
             width: 500px;
             height: 100px;
-            overflow: hidden; /* Ensures the content is not revealed until the animation */
-            border-right: .9em solid orange; /* The typwriter cursor */
-            overflow: hidden; /* Ensures the content is not revealed until the animation */
-            white-space: pre-line; /* Keeps the content on a single line */
-            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            overflow: hidden; 
+            border-right: .9em solid orange; 
+            overflow: hidden;
+            white-space: pre-line; 
+            margin: 0 auto; 
             animation: 
               typing 8.5s steps(50, end),
               blink-caret 1.5s step-end infinite;
