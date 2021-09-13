@@ -81,7 +81,7 @@ body {
 .container section {
     width:300px;
     height:200px;
-    float:left;
+    float:right;
 }
 
 .container section:nth-child(1) {background-color:green;} 
