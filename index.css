@@ -1,42 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 *{
-    margin: 0px;
-    padding: 0;
-    font-family:"Arial Black";
+    font-family: 'Muli', sans-serif;
+    user-select: none;
+    }
     
-}
 
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,10,24,1) 35%, rgba(0,0,0,1) 100%);
+    display: block;
+    background: rgb(253,209,7);
+    background: radial-gradient(circle, rgba(253,209,7,1) 0%, rgba(255,244,195,1) 0%, rgba(255,247,213,1) 44%, rgba(255,247,211,1) 75%, rgba(255,255,255,1) 91%);
     height: 100vh;
     background-size: cover;
     background-position: center;
-    left: -2px;
-    top: -2px;
     background-size: 400%;
-    width: calc(100% + 5px);
-    height: calc(100% + 5px);
-    z-index: -1;
     animation: glower 20s linear infinite;
     }
 
   ul{
     float: right;  
     list-style-type: none;
-    margin-top: 25px;
+    margin-top: 30px;
+    font-size: larger;
 
   }
 
     ul li{
       display: inline-block;
-
-  }
+    }
 
       ul li a{
       text-decoration: none;
-      color: rgb(250, 233, 0);
+      color: rgb(2, 2, 2);
       padding: 5px 20px;
-      border:1px solid #fff ;
+      font-weight: bold;
       transition: 0.6s ease;
     }
     ul li a:hover{
@@ -45,17 +42,21 @@ body {
      }
 
     ul li.active a{
+    font-size: x-large;
     background-color: rgb(255, 255, 255);
     color: rgb(247, 247, 247);
     }
-    .logo img{
-        float: left;
-        width: 100px;
-        height: auto;
-        padding: 5px 20px;
-    }
+    .logo {
+      color: rgb(248, 211, 0);
+      display: block;
+      float: left;
+      font-size: larger;
+      height: 20px;
+      padding-top: -5%;
+        }
     
     .main{
+        display: block;
         max-width: 1200px;
         margin: auto;
     }
@@ -74,50 +75,56 @@ body {
 
     .button{
         position: absolute;
-        top: 50%;
-        left: 60%;
+        top: 43%;
+        left: 68%;
         transform: translate(-50%,-50%);
         }
 
     .btn{
-        border:1px solid #fff ;
+        border:1px solid rgb(0, 0, 0) ;
+        font-size: large;
+        font-weight: bold;
         padding: 10px 10px;
-        color: #fff;
+        color: rgb(0, 0, 0);
         text-decoration: none;
         transition: 0.6s ease;
     }
 
     .btn:hover{
-        background-color: rgb(232, 236, 0);
+      background-color: rgb(248, 211, 0);
         color: rgb(0, 0, 0);
         box-shadow: 0 20px 40px rgba(145, 92, 182, .4);
         
     }
 
     .btno{
-        border:1px solid #fff ;
+        border:1px solid rgb(0, 0, 0) ;
+        font-size: large;
+        font-weight: bold;
         padding: 10px 10px;
-        color: #fff;
+        color: rgb(0, 0, 0);
         text-decoration: none;
         transition: 0.6s ease;
     }
 
     .btno:hover{
-        background-color: rgb(232, 236, 0);
+      background-color: rgb(248, 211, 0);
         color: rgb(0, 0, 0);
         box-shadow: 0 20px 40px rgba(145, 92, 182, .4);
     }
 
     .content {
-            color: rgb(240, 204, 0);
+            display: block;
+            color: rgb(0, 0, 0);
             font-family: monospace;
             position: absolute;
-            top: 450px;
-            right: 310px;
+            font-weight: bold;
+            top: 350px;
+            right: 200px;
             width: 500px;
             height: 100px;
             overflow: hidden; 
-            border-right: .9em solid orange; 
+            border-right: .9em solid rgb(0, 0, 0); 
             overflow: hidden;
             white-space: pre-line; 
             margin: 0 auto; 
@@ -126,27 +133,27 @@ body {
               blink-caret 1.5s step-end infinite;
           }
     
+      .Kiyan img{
+        display: block;
+        position: absolute;
+        float: right;
+        margin-top: 8%;
+        padding-left: 16%;
+        width: 400px;
+      }
 
-    .Kiyan img{
-        width: 1050px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        height: fit-content;
-    }
+      @keyframes typing {
+      from { width: 0 }
+      to { width: 30% }
+      }
 
-    
-
-
-
-    @keyframes typing {
-    from { width: 0 }
-    to { width: 30% }
-    }
+      
   
 
-    @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
-     }
+      @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: rgb(0, 0, 0) }
+      }
     
 
   
@@ -163,6 +170,14 @@ body {
         100% {
           background-position: 0 0;
         }
+      }
+
+      .name{
+        display: block;
+        float: right;
+        margin-top: 7%;
+        margin-right: -40%;
+        font-size: xx-large;
       }
 
     
