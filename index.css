@@ -104,10 +104,10 @@ ul li a :hover{
     }
 
 .model{
-    height: 537px;
+    height: 500px;
     position: absolute;
-    bottom: 40px;
-    left: 50%;
+    bottom: 85px;
+    left: 54%;
 }
 
     @keyframes typing {
