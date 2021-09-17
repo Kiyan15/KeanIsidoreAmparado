@@ -104,9 +104,9 @@ ul li a :hover{
     }
 
 .model{
-    height: 540px;
+    height: 560px;
     position: absolute;
-    bottom: 0px;
+    bottom: 40px;
     left: 50%;
 }
 
