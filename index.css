@@ -171,7 +171,31 @@ ul li a :hover{
       font-weight: bold;
       line-height: 5px;
   }
-
+  FORM {
+    width: 50%;
+  }
+  input[type=submit]:hover {
+    background-color: #0b212f;
+  }
+  input[type=submit] {
+    width: 30%;
+    background-color: #3f71f5;
+    color: rgb(255, 255, 255);
+    padding: 10px 11px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 3px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
   
 
 
