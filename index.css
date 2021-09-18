@@ -124,7 +124,7 @@ ul li a :hover{
 .model{
     height: 500px;
     position: absolute;
-    bottom: 85px;
+    margin-top: 0px;
     left: 54%;
 }
 
