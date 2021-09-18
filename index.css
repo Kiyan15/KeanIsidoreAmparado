@@ -2,24 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 *{
     font-family: 'Muli', sans-serif;
+
 }
 
-<style>
-.left, .right{
-    float: left;
-    width: 20%;
-}
-.main {
-    float: left;
-    width: 60%;   
-}
-@media screen and (max-width:800px){
-    .left .right .main{
-        width: 100%;
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
     }
-}
+  }
 
 
+@media only screen and (max-width: 600px) {
 body {
     background: rgb(235, 236, 236);
     background: linear-gradient(90deg, rgba(140,169,245,1) 0%, rgba(255,255,255,1) 16%, rgba(230,237,254,1) 84%);
@@ -27,7 +21,7 @@ body {
     animation: glower 20s linear infinite;
     background-size: 300%;
 }
-
+}
 ul {
     list-style: none;
 }
