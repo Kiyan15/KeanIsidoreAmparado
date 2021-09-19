@@ -1,19 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 *{
     margin: 0px;
     padding: 0;
-    font-family:"Arial Black";
+    font-family: 'Muli', sans-serif;
 }
   
     body {
-        background: rgb(253,115,7);
-background: linear-gradient(90deg, rgba(253,115,7,1) 0%, rgba(38,175,231,1) 100%);
+      background: rgb(235, 236, 236);
+      background: linear-gradient(90deg, rgba(140,169,245,1) 0%, rgba(255,255,255,1) 16%, rgba(230,237,254,1) 84%);
     height: 100vh;
     background-size: cover;
     background-position: center;
     }
-
+    ul {
+      list-style: none;
+  }
+  
+  a{
+      color: #ffffff;
+      text-decoration: none;
+  }
+  
+  section{
+      width:100%;
+      height: 95vh;
+      position: relative;
+  }
+  
+  nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      background-color: #ffffff;
+      box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+      padding: 0px 5%;
+  }
+  
+  nav ul{
+      display: flex;
+  
+  }
+  nav ul li a{
+      margin: 30px;
+      font-weight: bold;
+      color: #0b212f;
+      font-size: 15px;
+      font-weight: 700;
+  }
+  ul li a :hover{
+      background-color: rgb(248, 211, 0);
+      color: rgb(0, 0, 0);
+  }
+  .logo{
+      font-weight: bolder;
+      font-size: large;
+      color: black;
+  }
     h3{
-        color: aliceblue;
+        color: #0b212f;
         position: initial;
         padding: 20px 190px;
         font-size: 50px;
