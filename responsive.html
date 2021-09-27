@@ -25,7 +25,7 @@
    
     <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top">
       <div class="container">
-        <a href="#" class="navbar-brand  fw-bold">Frontend Bootcamp</a>
+        <a href="#" class="navbar-brand fw-bold">Frontend Bootcamp</a>
 
         <button
           class="navbar-toggler"
@@ -57,6 +57,7 @@
             <div class="col-md">
               <h2 class="text-center mb-4">Contact Info</h2>
               <ul class="list-group list-group-flush lead">
+                
                 <li class="list-group-item">
                   <span class="fw-bold">Main Location:</span> City of Mati Davao Oriental
                 </li>
@@ -75,12 +76,26 @@
                   kamparado_190000000833@uic.edu.ph
                 </li>
               </ul>
+              
             </div>
             <div class="col-md">
               <div id="map"></div>
             </div>
           </div>
         </div>
+      </div>
+
       </section>
+      <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+      <script>
+        mapboxgl.accessToken =
+          'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+        var map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/mapbox/streets-v11',
+          center: [-71.060982, 42.35725],
+          zoom: 18,
+        })
+      </script>
   </body>
 </html>
